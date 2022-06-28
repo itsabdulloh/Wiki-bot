@@ -4,14 +4,14 @@ import wikipedia
 
 from aiogram import Bot, Dispatcher, executor, types
 
-API_TOKEN = '5040399767:AAGmsC_S8vjAbHXxQxgRH6JkmcI4pfQP-M'
+API_TOKEN = 'Your telegram bot API'
 wikipedia.set_lang('uz')
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
 # Initialize bot and dispatcher
-bot = Bot(token='5040399767:AAGmsC_S8vjAbHXxQxgRH6JkmcI4pfQP-M8')
+bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
 
